@@ -2,7 +2,7 @@ import com.Testinium.Mobile.HookImpl;
 import com.Testinium.Mobile.StepImpl;
 import org.openqa.selenium.By;
 
-public class Test extends HookImpl {
+public class GratisAppTests extends HookImpl {
 
     StepImpl step= new StepImpl();
 
