@@ -1,5 +1,0 @@
-#surefire_0
-#Wed Jul 09 11:21:44 EET 2025
-basedir=/Users/n100922/Desktop/EnterpriseProjects/AppiumJava
-test=com.Testinium.Mobile.GratisAppTests
-localRepository=/Users/n100922/.m2/repository
