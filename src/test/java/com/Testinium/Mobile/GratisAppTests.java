@@ -1,5 +1,5 @@
-import com.Testinium.Mobile.HookImpl;
-import com.Testinium.Mobile.StepImpl;
+package com.Testinium.Mobile;
+
 import org.openqa.selenium.By;
 
 public class GratisAppTests extends HookImpl {
