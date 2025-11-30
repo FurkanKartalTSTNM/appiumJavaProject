@@ -83,9 +83,4 @@ public class GratisAppTests extends HookImpl {
 
     }
 
-    @Test
-    public void WaitScenario() {
-        step.waitBySecond(5);
-    }
-
 }
