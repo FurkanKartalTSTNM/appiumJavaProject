@@ -83,16 +83,6 @@ public class GratisAppTests extends HookImpl {
 
     }
 
-    @Test
-    public void IOSWait(){
-        step.waitBySecond(5);
 
-    }
-
-    @Test
-    public void AndroidWait(){
-        step.waitBySecond(5);
-
-    }
 
 }
