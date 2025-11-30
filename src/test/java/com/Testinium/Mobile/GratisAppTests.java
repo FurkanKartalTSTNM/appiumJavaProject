@@ -44,5 +44,13 @@ public class GratisAppTests extends HookImpl {
 
     }
 
+    @org.junit.jupiter.api.Test
+    public void WaitStep() throws InterruptedException {
+
+        step.waitBySecond(3);
+
+
+    }
+
 
 }
