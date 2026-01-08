@@ -2,8 +2,6 @@ package com.Testinium.Mobile;
 
 import org.openqa.selenium.By;
 
-import static org.junit.jupiter.api.Assertions.fail;
-
 public class GratisAppTests extends HookImpl {
 
     StepImpl step= new StepImpl();
@@ -49,32 +47,6 @@ public class GratisAppTests extends HookImpl {
         step.waitBySecond(3);
 
     }
-
-    @org.junit.jupiter.api.Test
-    public void AndroidBasicTestSuccess02() throws InterruptedException {
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
-
-        // 🔴 3. adımda bilinçli FAIL
-        fail("Intentional FAIL at step 3 - scenario validation");
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaign")).click();
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
-
-        step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaign")).click();
-    }
-}
 
     @org.junit.jupiter.api.Test
     public void WaitStep() throws InterruptedException {
