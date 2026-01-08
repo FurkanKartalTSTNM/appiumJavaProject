@@ -36,14 +36,14 @@ public class GratisAppTests extends HookImpl {
         appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
         System.out.println("Clicked categories");
         step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaignnnn")).click();
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaign")).click();
         System.out.println("Clicked campaign");
         step.waitBySecond(3);
         appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
         step.waitBySecond(3);
         appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
         step.waitBySecond(3);
-        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaign")).click();
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaignnnnn")).click();
         step.waitBySecond(3);
 
     }
