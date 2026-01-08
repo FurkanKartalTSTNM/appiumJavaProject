@@ -2,6 +2,8 @@ package com.Testinium.Mobile;
 
 import org.openqa.selenium.By;
 
+import static org.junit.jupiter.api.Assertions.fail;
+
 public class GratisAppTests extends HookImpl {
 
     StepImpl step= new StepImpl();
@@ -33,6 +35,30 @@ public class GratisAppTests extends HookImpl {
         appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
         System.out.println("Clicked trademarks");
         step.waitBySecond(3);
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
+        System.out.println("Clicked categories");
+        step.waitBySecond(3);
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaignnnn")).click();
+        System.out.println("Clicked campaign");
+        step.waitBySecond(3);
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
+        step.waitBySecond(3);
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
+        step.waitBySecond(3);
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_campaign")).click();
+        step.waitBySecond(3);
+
+    }
+
+    @org.junit.jupiter.api.Test
+    public void AndroidBasicTestSuccess01() throws InterruptedException {
+
+        step.waitBySecond(3);
+        System.out.println("AndroidBasicTestSuccess01 started");
+        appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_trademarks")).click();
+        System.out.println("Clicked trademarks");
+        step.waitBySecond(3);
+        fail("Intentional FAIL at step 3 - scenario validation");
         appiumDriver.findElement(By.id("com.gratis.android:id/nav_graph_categories")).click();
         System.out.println("Clicked categories");
         step.waitBySecond(3);
